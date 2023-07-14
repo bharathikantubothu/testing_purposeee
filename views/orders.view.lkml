@@ -51,6 +51,10 @@ view: orders {
     type :  string
     sql:  ${TABLE}.types ;;
   }
+  dimension: brandds {
+    type: string
+    sql: ${TABLE}.brandds ;;
+  }
   dimension: item_name {
     type: string
     sql: ${TABLE}.order_items.count ;;
